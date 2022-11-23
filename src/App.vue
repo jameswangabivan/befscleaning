@@ -1,8 +1,8 @@
 <template>
-  <HeaderComp />  
+  <HeaderComp/>  
 
   <main>
-    <router-view> </router-view>
+    <router-view :key="$route.path"> </router-view>
   </main>
 
   <FooterComp />
@@ -11,12 +11,12 @@
 <script>
 import FooterComp from '@/components/common/FooterComp.vue'
 import HeaderComp from '@/components/common/HeaderComp.vue'
-
 export default {
   name: 'App',
   components: {
     HeaderComp,
     FooterComp,
-  }
+  },
+
 }
 </script>

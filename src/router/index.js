@@ -3,10 +3,9 @@ import { createWebHistory, createRouter } from "vue-router";
 import HomeComp from "@/components/HomeComp.vue";
 import LoginComp from "@/components/user/LoginComp.vue";
 import RegisterComp from "@/components/user/RegisterComp.vue";
-
-import { useStore } from "vuex";
-const store = useStore;
-const loggedInStatus = store?.state?.auth?.loggedIn;
+import OurStory from "@/components/pages/OurStory.vue";
+import Products from "@/components/pages/Products.vue";
+import ContactUs from "@/components/pages/ContactUs.vue";
 
 const routes = [
   {
@@ -16,6 +15,7 @@ const routes = [
   },
   {
     path: "/home/",
+    name: "home2",
     component: HomeComp,
   },
   {
@@ -26,25 +26,30 @@ const routes = [
     path: "/register/",
     component: RegisterComp,
   },
+  {
+    path: "/our-story/",
+    name: "history",
+    component: OurStory,
+  },
+
+  {
+    path: "/products/",
+    name: "products",
+    component: Products,
+  },
+
+  {
+    path: "/contact-us/",
+    name: "contacts",
+    component: ContactUs,
+  },
   
 ];
 
 const router = createRouter({
   history: createWebHistory(),
+  linkExactActiveClass: "active",
   routes,
-});
-
-
-router.beforeEach((to, from, next) => {
-  const publicPages = ['/login/', '/', '/register/', '/home/', '/send-sms/', "/history/"];
-  const authRequired = !publicPages.includes(to.path);
-  const loggedIn = loggedInStatus;
-
-  if (authRequired && !loggedIn) {
-    next('/login/');
-  } else {
-    next();
-  }
 });
 
 export default router;

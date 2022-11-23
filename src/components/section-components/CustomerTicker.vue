@@ -1,15 +1,19 @@
 <template>
-
-  <div class="ticker-wrap">
-    <div class="ticker">
-      <div class="ticker__item"><img alt="sema-na-sms" src="../../assets/images/airtel-logo-vector.png" class="customer-image" /></div>
-      <div class="ticker__item"><img alt="sema-na-sms" src="../../assets/images/safaricom-logo.png" class="customer-image" /></div>
-      <div class="ticker__item"><img alt="sema-na-sms" src="../../assets/images/telkom-kenya.png" class="customer-image" /></div>
-      <div class="ticker__item"><img alt="sema-na-sms" src="../../assets/images/salhiya-logo.png" class="customer-image" /></div>
-      <div class="ticker__item"><img alt="sema-na-sms" src="../../assets/images/22-bet.png" class="customer-image" /></div>
-      <div class="ticker__item"><img alt="sema-na-sms" src="../../assets/images/karen-hospital.png" class="customer-image" /></div>
-    </div>
-  </div>
+  
+  <section class="customers basic-block-section">
+    <div class="container text-center">
+      <div class="happy-title"><h3 class="sideline-title">Happy Clients</h3></div>
+      <div class="post-happy-title"><h1>Our Partners and Clients,<br/> We made them Happy</h1></div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4"><img alt="sema-na-sms" src="../../assets/correct_content/customer-safaricom.png" class="customer-image in-row-block shadow-sm" /></div>
+        <div class="col-md-4 col-lg-4"><img alt="sema-na-sms" src="../../assets/correct_content/customer-airtel.png" class="customer-image in-row-block shadow-sm" /></div>
+        <div class="col-md-4 col-lg-4"><img alt="sema-na-sms" src="../../assets/correct_content/customer-telkom.png" class="customer-image in-row-block shadow-sm" /></div>
+        <div class="col-md-4 col-lg-4"><img alt="sema-na-sms" src="../../assets/correct_content/customer-karen.png" class="customer-image in-row-block shadow-sm" /></div>
+        <div class="col-md-4 col-lg-4"><img alt="sema-na-sms" src="../../assets/correct_content/customer-22bet.png" class="customer-image in-row-block shadow-sm" /></div>
+        <div class="col-md-4 col-lg-4"><img alt="sema-na-sms" src="../../assets/correct_content/customer-salhiya.png" class="customer-image in-row-block shadow-sm" /></div>
+      </div>
+    </div>  
+  </section>
 </template>
 
 
