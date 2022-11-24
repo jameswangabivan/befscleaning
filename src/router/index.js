@@ -6,6 +6,7 @@ import RegisterComp from "@/components/user/RegisterComp.vue";
 import OurStory from "@/components/pages/OurStory.vue";
 import Products from "@/components/pages/Products.vue";
 import ContactUs from "@/components/pages/ContactUs.vue";
+import DemoReq from "@/components/pages/DemoReq.vue";
 
 const routes = [
   {
@@ -36,6 +37,12 @@ const routes = [
     path: "/products/",
     name: "products",
     component: Products,
+  },
+  
+  {
+    path: "/demo/",
+    name: "demo",
+    component: DemoReq,
   },
 
   {

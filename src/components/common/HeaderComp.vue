@@ -16,7 +16,7 @@
           <div class="col-md-6 col-lg-6 col-sm-7 col-7">
             <MenuComp />
           </div>
-          <div class="col-md-2 col-lg-2 col-sm-5 col-5 bold blue-txt float-end top-spacing mobile-second-nav"><div class="navbar-nav"><router-link to="/demo/" class="nav-link float-end" aria-current="page float-end"><span class="yellow-bg rb-border-radius float-end"><span class="d-none d-lg-inline-block">Request </span>Demo</span></router-link></div></div>
+          <div class="col-md-2 col-lg-2 col-sm-5 col-5 bold blue-txt float-end top-spacing mobile-second-nav"><div class="navbar-nav"><router-link to="/demo/" class="nav-link float-end" aria-current="page float-end"><span class="yellow-bg rb-border-radius float-end"><span class="d-none d-lg-inline-block">Request </span> Demo</span></router-link></div></div>
         </div>
       </div>
     </div>
