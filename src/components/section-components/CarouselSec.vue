@@ -4,7 +4,7 @@
     <div class="basic-block"></div>
     <div class="basic-block"></div>
     <div class="basic-block"></div>
-    <div class="basic-block"></div>
+    <div class="basic-block d-none d-lg-block"></div>
     <div class="carousel-1-content">
       <div class="container relative-pos">
         <div class="carousel-info col-lg-4 col-md-4">
@@ -22,7 +22,7 @@
           </div>
         </div>
     </div>
-    <div class="carousel-bottom">
+    <div class="carousel-bottom d-none d-lg-block">
       <div class="row zero-margin-right">
         <div class="col-md-4 col-lg-4 col-sm-4"><img alt="sema-na-sms" src="../../assets/correct_content/salhiya.png" class="right-page-img-carousel" /></div>
         <div class="col-md-4 col-lg-4 col-sm-4"><img alt="sema-na-sms" src="../../assets/correct_content/karen.png" class="right-page-img-carousel" /></div>
