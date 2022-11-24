@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card small-card">
       <div class="card-header text-center">
-        <h2 class="title">Login</h2>
+        <h2 class="title">Demo Request</h2>
       </div>
 
       <div class="card-body text-center">
