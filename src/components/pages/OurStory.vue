@@ -1,4 +1,5 @@
 <template>
+<section class="yellow-header"></section>
   <section class="history basic-block relative-pos">
     <div class="history-image-cover"></div>
     <div class="basic-block"></div>
@@ -6,7 +7,7 @@
     <div class="basic-block d-none d-lg-block"></div>
     <div class="container relative-pos about-lifted">
       <h2>About Us</h2>
-      <p>Sema na SMS is a leading Premium Rate Service Provider (PRSP) company. We provide turn-key mobility solutions and platforms in the telecoms, finance, government & entertainment sectors. We are a team of restless and curious, creative and passionate people looking to reimagine what is possible when technology & passion meet.</p>
+      <p>Bef'scleaning is the leading Cleaning Services Provider company. We provide turn-key cleaning solutions and facilities to companies, residences, offices, Malls & entertainment sectors. We are a team of restless and curious, creative and passionate people looking to reimagine what is possible when technology & passion meet. We use the latest technology in offering our services</p>
     </div>
     <div class="basic-block d-none d-lg-block"></div>
   </section>
@@ -20,7 +21,7 @@
               <h3 class="history-title">Our Mission</h3>
               <div class="prod-title-sep"></div>
               <img src="../../assets/correct_content/mission.jpg" class="about-image" />
-              <p>Creating Meaningful and intuitive mobile and media solutions globally</p>
+              <p>Creating Meaningful and intuitive cleaning solutions countrywide</p>
             </div>
           </div>
 
@@ -29,7 +30,7 @@
               <h3 class="history-title">Our Vision</h3>
               <div class="prod-title-sep"></div>
               <img src="../../assets/correct_content/vision.jpg" class="about-image" />
-              <p>to be the leading company of choice of prsp solutions in africa</p>
+              <p>to be the leading company of choice of cleaning solutions in africa</p>
             </div>
           </div>
 

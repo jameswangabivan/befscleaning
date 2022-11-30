@@ -1,4 +1,5 @@
 <template>
+<section class="yellow-header"></section>
 <section class="sec-header text-center basic-block">
   <div class="container">
   <h3 class="block title">Products</h3></div></section>
@@ -7,11 +8,11 @@
         <div class="row">
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
             <div class="product-container">
-                <img src="../../assets/images/sms.png" class="products-image" />
+                <img src="../../assets/images/fumigation.jpg" class="products-image" />
                 <div class="text-content">
-                  <h4 class="product-title">Sms Marketing</h4>
+                  <h4 class="product-title">Fumigation</h4>
                   <div class="prod-title-sep"></div>
-                  <p class="preview-txt">Market your product with instant& reliable messaging where customers can identify you through custom sender ID i.e Tuskys</p>
+                  <p class="preview-txt">Pest Control services from the experts at Befs Cleaning, providing professional pest control solutions to homes and businesses across Kenya</p>
                   <button class="btn btn-primary">Learn More</button>
                 </div>
             </div>
@@ -20,11 +21,11 @@
 
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/short-code.png" class="products-image" />
+            <img src="../../assets/images/business.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">Short codes</h4>
+              <h4 class="product-title">Business</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Increase engagement with your customers using a 5-digit short code number that can send & receive messages from customers i.e. two-way engagement.</p>
+              <p class="preview-txt">Includes Office, Shopping Malls, Company Halls, Office Chairs, Pest Control</p>
               <button class="btn btn-primary">Learn More</button>
             </div>
           </div>
@@ -32,22 +33,22 @@
 
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/ussd.jpeg" class="products-image" />
+            <img src="../../assets/images/clearing.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">USSDs</h4>
+              <h4 class="product-title">Field Clearing</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Increase engagement with your customers where they can interact directly with your product from their mobile phones by making various selections from various menus.</p>
+              <p class="preview-txt">Includes bush clearing, pre-event cleaning, post-event cleaning, Street Cleaning, Market Cleaning</p>
               <button class="btn btn-primary">Learn More</button>
              </div> 
           </div>
         </div>
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/promotions.jpg" class="products-image" />
+            <img src="../../assets/images/carpet.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">Promotions</h4>
+              <h4 class="product-title">Home/House</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Improve brand loyalty by rewarding your loyal customer through reward schemes i.e. bulk airtime awards, data bundles & discount coupons redeemed via SMS.</p>
+              <p class="preview-txt">Includes Compound, House, landscaping, Mattresses, Carpet, Environmental cleanliness</p>
               <button class="btn btn-primary">Learn More</button>
             </div> 
           </div>
@@ -55,11 +56,11 @@
 
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/payments.jpg" class="products-image" />
+            <img src="../../assets/images/building.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">Payments</h4>
+              <h4 class="product-title">Building/Construction</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Our integrated mass marketing Bulk SMS Solution platform offers a wide range of enriched SMS  technology to enable you to connect effectively with your customers.</p>
+              <p class="preview-txt">Includes Post-construction cleaning, Debris clearing, Deconstruction, Pre-entry</p>
               <button class="btn btn-primary">Learn More</button>
             </div> 
           </div>
@@ -67,11 +68,11 @@
 
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/chat-bot.png" class="products-image" />
+            <img src="../../assets/images/vehicle.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">Chat Bots</h4>
+              <h4 class="product-title">Vehicle</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Sell your products and services 24/7, even when you’re are not there. The AI and natural language engine will do the heavy lifting to get more sales, speed up customer query resolutions.</p>
+              <p class="preview-txt">Car Cleaning, Car Seats and carpets, large vehicle cleaning</p>
               <button class="btn btn-primary">Learn More</button>
             </div>  
           </div>
@@ -79,11 +80,11 @@
 
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/surveys.jpg" class="products-image" />
+            <img src="../../assets/images/pest.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">Surveys</h4>
+              <h4 class="product-title">Pest Control</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Get Real-time customer feedback and insights to understand your customers better than your competition. Know how often your customers buy & spend.</p>
+              <p class="preview-txt">Includes Bugs, Rodents, Termites, Mosquitoes</p>
               <button class="btn btn-primary">Learn More</button>
             </div>  
           </div>
@@ -91,11 +92,11 @@
 
         <div class="col-md-3 col-lg-3 col-xs-12 block text-center">
           <div class="product-container">
-            <img src="../../assets/images/whatsapp-marketing.jpg" class="products-image" />
+            <img src="../../assets/images/hotel.jpg" class="products-image" />
             <div class="text-content">
-              <h4 class="product-title">WhatsApp Marketing</h4>
+              <h4 class="product-title">Hotel</h4>
               <div class="prod-title-sep"></div>
-              <p class="preview-txt">Communicate with customers through the most downloaded App in the world using messages, pictures, videos, audios & many more.</p>
+              <p class="preview-txt">We offer Special Package to Hotels.</p>
               <button class="btn btn-primary">Learn More</button>
             </div>  
           </div>

@@ -1,4 +1,5 @@
-<template>  
+<template>
+<section class="yellow-header"></section>
   <div class="container">
     <div class="card small-card">
       <div class="card-header">

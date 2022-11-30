@@ -461,7 +461,7 @@ header {
 }
 
 .carousel-static {
-  background-image: url('~@/style/images/home_page.jpg');
+  background-image: url('~@/style/images/home_carousel.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -555,4 +555,14 @@ header {
 .sec-header {
   padding-bottom: 10px;
 }
+}
+
+.logo-txt {
+  color: #555555;
+}
+
+
+.yellow-header {
+  background: #FFBF00;
+  height: 10px;
 }

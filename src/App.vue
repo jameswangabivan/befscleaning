@@ -1,6 +1,5 @@
 <template>
   <HeaderComp/>  
-
   <main>
     <router-view :key="$route.path"> </router-view>
   </main>
